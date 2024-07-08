@@ -135,8 +135,8 @@ def main():
     'Subject ID': filenames,
     'Pred_label_' + class_name : predicted_labels_list })
     print()
-    DF.to_excel('predicted_output_' + str(class_name) + '.xlsx', index=False)
-    print(' *****************The output was generated in predicted_output_Class_name.py*****************')
+    DF.to_excel('predicted_output_' + str(class_name) + '.csv', index=False)
+    print(' *****************The output was generated in predicted_output...csv*****************')
 if __name__ == "__main__":
    main()
 
