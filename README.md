@@ -1,1 +1,2 @@
 # Task1
+Here is an example of using DenseNet264 to train and test models across various artifact categories: Noise, Zipper, Positioning, Banding, Motion, Contrast, and Distortion. The training data were split into two cohorts—training and validation—using Excel files such as "training_cohort_Distortion.xlsx" and "validation_cohort_Distortion.xlsx". The testing script then applies the best model derived from the training to a separate test cohort.
