@@ -81,7 +81,7 @@ def main():
     
     x, y, z = 128, 128, 128 #Adjust this based on available GPU memory
 
-    data_dirte = "./Validation_renamed/" #SE_HF/SE_LF
+    data_dirte = "./testing_data/" #SE_HF/SE_LF
     
     images = glob.glob(os.path.join(data_dirte, "*.nii.gz"))
     te_files = [{"img": img} for img in zip(images)]
