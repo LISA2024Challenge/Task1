@@ -122,7 +122,7 @@ def main():
     
     x, y, z = 256, 256, 256 #Change based on your GPU memory 
   
-    data_dir = "./renamed_for_release"
+    data_dir = "./Data"
     
     img_tr =[]
     label_tr = []
