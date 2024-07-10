@@ -1,3 +1,4 @@
 Here's an example of using DenseNet264 to train and test QC models for different artifact categories like Noise, Zipper, Positioning, Banding, Motion, Contrast, and Distortion. More specifically, this serves as the baseline implementation for Task 1 of the LISA 2024 Challenge for the "Distortion" category in 3 grades of 0, 1 and 2. The training data were split into two groups—training and validation—using Excel files named "training_cohort_Distortion.xlsx" and "validation_cohort_Distortion.xlsx". The best model generated from the training (best_metric_model_LISA_LF_Distortion.pth) is then applied to a separate test group using QC_testing.py script.
 
 Organize the training and testing data into separate folders (Data and testing_data, respectively) within your working directory.
+Please check the LISA 2024 Challenge website at https://www.synapse.org/Synapse:syn55249552/files/ to obtain the weights of the best model for the Distortion category.
